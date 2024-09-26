@@ -6,7 +6,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Relatórios Costa Azul</title>
 	<script src="https://cdn.tailwindcss.com"></script>
-
+	<script>
+		const pass = prompt('Insira sua senha de acesso');
+		if (pass != 'Costa2023') {
+			window.location.href = 'https://etechseabra.com.br';
+		}
+	</script>
 </head>
 
 <body style="background-image: linear-gradient(to right bottom, rgb(16, 16, 16), rgb(0, 27, 78));"
